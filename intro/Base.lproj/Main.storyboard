@@ -164,14 +164,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5L-PE-o9r">
-                                <rect key="frame" x="42" y="89" width="73" height="24"/>
+                                <rect key="frame" x="16" y="89" width="122" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vidas: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wky-q1-wUo">
-                                <rect key="frame" x="283" y="89" width="71" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vidas: 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wky-q1-wUo">
+                                <rect key="frame" x="254" y="89" width="123" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -241,6 +241,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-8L-xwK">
+                                <rect key="frame" x="76" y="622" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KsI-CS-wqu"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -249,8 +253,11 @@
                         <outlet property="btn1" destination="uut-oq-CWv" id="kYR-OP-vNx"/>
                         <outlet property="btn2" destination="5bR-kn-9jA" id="xxA-ya-NsI"/>
                         <outlet property="btn3" destination="uLV-xl-lOs" id="sTj-Rr-jfE"/>
+                        <outlet property="img" destination="xGt-8L-xwK" id="KGw-J5-otY"/>
+                        <outlet property="txtLifes" destination="Wky-q1-wUo" id="vyB-XB-wks"/>
                         <outlet property="txtOperador" destination="DZn-6s-Ym8" id="J6O-1k-1Sx"/>
                         <outlet property="txtRes" destination="V9a-EH-jvf" id="x4E-E5-0Lh"/>
+                        <outlet property="txtScore" destination="E5L-PE-o9r" id="nso-wG-amr"/>
                         <outlet property="txtn1" destination="JrZ-wm-dSg" id="SvJ-ie-uTp"/>
                         <outlet property="txtn2" destination="dZE-Ez-c3R" id="Ady-1O-UTC"/>
                     </connections>

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ganaste-banner-ganador-felicitaciones-marco-medalla-de-oro-felicitando-signo-enmarcado-y-ganando-confetti-dorado-ilustración-155837580.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
